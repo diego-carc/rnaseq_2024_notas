@@ -16,3 +16,9 @@ usethis::use_github()
 
 # Gene expression Bioconductor data structures
 usethis::use_r("04-Exp-Bioc-Struct.R")
+
+# Recount
+usethis::use_r("05_recount3.R")
+
+# Make my app
+usethis::use_r("app.R")
