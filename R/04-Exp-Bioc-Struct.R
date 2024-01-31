@@ -74,5 +74,22 @@ rse[1:2, ]
 rse[, c("A", "D", "F")]
 # This command acces to all the features across samples A D and F
 
+# iSEE
+# This is a package generates an interactive web-page for gene Expression
+#analisys
+#Load package
+library("iSEE")
+library("spatialLIBD")
 
+# Download data
+sce_layer <- spatialLIBD::fetch_data("sce_layer")
+
+# Open iSEE
+
+iSEE::iSEE(sce_layer)
+
+# We generate the images:
+# "figures/ReducedDimensionPlot1.pdf"
+# "figures/ComplexHeatmapPlot1.pdf"
+#
 
