@@ -40,10 +40,8 @@ rowRanges <- GRanges(
 )
 names(rowRanges) <- paste0("gene_", seq_len(length(rowRanges)))
 ## Información de nuestras muestras
-colData <- DataFrame(
-  Treatment = rep(c("ChIP", "Input"), 3),
-  row.names = LETTERS[1:6]
-)
+colData <- DataFrame(Treatment = rep(c("ChIP", "Input"), 3),
+                     row.names = LETTERS[1:6])
 ## Juntamos ahora toda la información en un solo objeto de R
 rse <- SummarizedExperiment(
   assays = SimpleList(counts = counts),
@@ -53,3 +51,28 @@ rse <- SummarizedExperiment(
 
 ## Exploremos el objeto resultante
 rse
+
+# Dimension
+dim(rse)
+
+#
+assayNames(rse)
+
+#
+assay(rse, 1)
+
+#
+colData(rse)
+
+rse$Treatment
+
+# Exercise
+## Comando 1
+rse[1:2, ]
+# This command acces to the first two features across all samples
+
+rse[, c("A", "D", "F")]
+# This command acces to all the features across samples A D and F
+
+
+
