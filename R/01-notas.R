@@ -22,3 +22,8 @@ usethis::use_r("05_recount3.R")
 
 # Make my app
 usethis::use_r("app.R")
+
+# Explore Mode Matrix
+usethis::use_r("06-ExploreModelMtrx.R")
+
+usethis::use_r("smokingMice.R")
