@@ -27,3 +27,7 @@ usethis::use_r("app.R")
 usethis::use_r("06-ExploreModelMtrx.R")
 
 usethis::use_r("smokingMice.R")
+
+usethis::use_r("07_limma.R")
+
+usethis::use_r("08_notas_repaso.R")
