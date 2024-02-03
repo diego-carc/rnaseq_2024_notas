@@ -46,7 +46,7 @@
 # The community of Bioconductor is currently active in Conferences and resources.
 
 ### Exercise
-# We discussed the packages "GenomicPlot", "MethPed" and "".
+# We discussed the packages "GenomicPlot" and "MethPed".
 # We noticed that the newest package is "GenomicPlot" with less than 6 months in
 # Bioconductor.This package has verification for all platforms and its build state is
 # "ok". Its rank is modest but it is likely due to its short life. Also, the last update
@@ -56,4 +56,4 @@
 # the support section, so we argued whether this means the package has no troubles or the
 # package is not being used enough. We concluded that the package seems to be robust
 # enough for proper maintenance.
-# Finally we checked the package "".
+#

@@ -74,5 +74,4 @@ cowplot::plot_grid(plotlist = vd$plotlist, ncol = 1)
 # Ver imagen :
 
 # ¿Por qué es clave el 0 al inicio de la fórmula en el ejercicio 3?
-# Porque es la sintaxis para especificar que B0 = 0, es decir, se
-# elimina la columna de intersection
+# Porque es la sintaxis para especificar que se elimina la columna de intersection

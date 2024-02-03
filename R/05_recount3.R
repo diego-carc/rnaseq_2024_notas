@@ -22,7 +22,7 @@ proj_info <- subset(
 rse_gene_SRP009615 <- create_rse(proj_info)
 
 ## Explora los proyectos disponibles de forma interactiva
-proj_info_interactive <- interactiveDisplayBase::display(human_projects)
+#proj_info_interactive <- interactiveDisplayBase::display(human_projects)
 ## Selecciona un solo renglón en la tabla y da click en "send".
 
 ## Convirtamos las cuentas por nucleotido a cuentas por lectura

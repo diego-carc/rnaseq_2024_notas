@@ -1,0 +1,13 @@
+name: EjercicioRecount3App
+title: EjercicioRecount3App
+username: diego-carc
+account: diego-carc
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11122771
+bundleId:
+url: https://diego-carc.shinyapps.io/EjercicioRecount3App/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: 01-notas.R|02-visualizar-mtcars.R|03-Bioconductor.R|04-Exp-Bioc-Struct.R|05_recount3.R|06-ExploreModelMtrx.R|07_limma.R|08_notas_repaso.R|smokingMice.R
