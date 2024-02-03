@@ -31,5 +31,4 @@ colData(rse_gene_SRP009615)[
   grepl("^sra_attribute", colnames(colData(rse_gene_SRP009615)))
 ]
 
-initial <- readRDS("iSEE_memory.rds")
 iSEE::iSEE(rse_gene_SRP009615)
